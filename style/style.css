@@ -1,0 +1,133 @@
+html,
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ position: relative;
+ height: 100vh;
+ color: #222;
+ font-family: arial, sans-serif;
+}
+
+nav {
+ height: 25px;
+}
+
+footer {
+ height: 25px;
+ margin-bottom: 10px;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+}
+
+a {
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.87);
+
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+a:visited {
+ text-decoration: underline;
+ color: #609
+}
+
+.navitem {
+ float: right;
+ text-align: center;
+ font-size: 15px;
+}
+
+.p {
+ margin: 10px;
+ margin-top: 15px;
+}
+
+.appbtn {
+ height: 15px;
+ margin: 17px 8px;
+ cursor: pointer;
+}
+
+.signinbtn {
+ margin: 11px 13px;
+ height: 30px;
+ color: #fff;
+ background: #4285f4;
+ border: 1px solid #4285f4;
+}
+
+.wrapper {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ height: 90%;
+}
+
+.logo img {
+ width: 250px;
+}
+
+.searchbox {
+ width: 450px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ border: 1px solid #dfe1e5;
+ border-radius: 55px/60px;
+ margin: 10px 0px 25px 0px;
+}
+
+
+.searchbox img {
+ width: 10px;
+ height: 15px;
+}
+
+.searchbox input {
+ flex-basis: 400px;
+ height: 30px;
+ border: none;
+ margin: 5px;
+ outline: none;
+}
+
+.search-buttons button {
+ background: #f5f5f5;
+ border: 1px solid #f5f5f5;
+ border-radius: 4px;
+ color: #5F6368;
+ font-size: 15px;
+ padding: 5px 15px;
+ margin-bottom: 15px;
+ cursor: pointer;
+}
+
+.search-options {
+ display: inline-block;
+}
+
+.search-options a {
+ color: #1a0dab;
+ padding: 0px 0px 0px 0px;
+}
+
+.right {
+ float: right;
+ margin: 10px;
+}
+
+.left {
+ float: left;
+ margin: 10px;
+ margin-top: 15px;
+
+}
