@@ -75,7 +75,8 @@ a:visited {
 }
 
 .searchbox {
- width: 450px;
+ max-width: 450px;
+ width: 100vw;
  height: 40px;
  display: flex;
  justify-content: center;
